@@ -2,7 +2,7 @@ namespace weather;
 
 public class WeatherForecast
 {
-    public string message = 'test';
+    public string message = 'test'; 
 
     public DateTime Date { get; set; }
 
