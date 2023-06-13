@@ -2,6 +2,8 @@ namespace weather;
 
 public class WeatherForecast
 { 
+    public string test => "test";
+
     public DateTime Date { get; set; }
 
     public int TemperatureC { get; set; }
