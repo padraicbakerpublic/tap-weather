@@ -1,9 +1,7 @@
 namespace weather;
 
 public class WeatherForecast
-{
-    public string message = 'test2'; 
-
+{ 
     public DateTime Date { get; set; }
 
     public int TemperatureC { get; set; }
