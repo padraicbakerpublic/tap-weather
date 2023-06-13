@@ -1,0 +1,15 @@
+id: d3a58bd2-45a9-4529-94fd-dd87c1a73b09
+timestamp: 2023-06-11T15:37:13Z
+username: guest
+source: TAP-GUI
+accelerator:
+  name: weatherforecast-csharp
+  source:
+    image: registry.tanzu.vmware.com/tanzu-application-platform/tap-packages@sha256:d08db384477a6a0b1b288b70aea1c1d24b7ea38edd726b4c1b977128e625046b
+fragments:
+  - name: tap-workload
+    source:
+      image: registry.tanzu.vmware.com/tanzu-application-platform/tap-packages@sha256:dbf0dedb6848ad8a7704c1c19465a1ddae9039b0e63c1dd0df3e2ed9cbda6093
+options:
+  applicationName: weather
+  projectName: weatherforecast-csharp
